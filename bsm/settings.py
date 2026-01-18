@@ -45,7 +45,11 @@ SECRET_KEY = 'django-insecure-9gyf1m5dc4z0-gldar0ty6706lshbdoa3(&wpo_lxw*7y*xtn@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "scholesagent-backend-1.onrender.com",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
